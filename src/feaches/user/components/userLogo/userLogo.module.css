@@ -1,0 +1,13 @@
+.img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0.2rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

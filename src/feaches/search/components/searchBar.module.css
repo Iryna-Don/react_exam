@@ -1,0 +1,17 @@
+.inputStyled {
+    padding: 0.5rem;
+    color: #031625;
+    font-size: 1rem;
+    border: 1px solid #1967d3;
+    width: 15vw;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+}
+
+.inputStyled:hover {
+    box-shadow: 0 4px 12px rgb(135, 206, 235);
+}
+
+.inputStyled::placeholder {
+    font-size: 1rem;
+}

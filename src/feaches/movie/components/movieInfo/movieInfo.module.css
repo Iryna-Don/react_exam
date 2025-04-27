@@ -1,0 +1,27 @@
+.movieInfoWrapper{
+    padding-left: 0.5rem;
+    height: 85vh;
+    display: flex;
+    align-content: flex-end;
+    justify-content: stretch;
+    gap: 1rem;
+    align-items: center;
+}
+
+.infoBlock{
+    padding: 1rem;
+}
+
+.overview{
+    width: 65vw;
+}
+
+.fontSizeInfo {
+    font-size: 1.2rem;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

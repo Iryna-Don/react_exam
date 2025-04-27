@@ -1,0 +1,24 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-row-gap: 1.7rem;
+    justify-items: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.gridContainer > div {
+    border: 1px solid #ddd;
+    padding: 16px;
+}
+
+.star {
+    color: gold;
+}
+
+.movieTitle {
+    width: 200px;
+    height: 75px;
+    text-align: center;
+}
+

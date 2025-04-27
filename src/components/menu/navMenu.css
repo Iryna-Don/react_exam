@@ -1,0 +1,19 @@
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-family: "Tinos", serif;
+    color: white;
+    margin: 5px;
+    transition: transform 0.2s ease, text-shadow 0.2s ease;
+}
+
+a:hover {
+    text-shadow: 10px 14px 12px rgb(135, 206, 235);
+    transform: scale(1.2);
+}

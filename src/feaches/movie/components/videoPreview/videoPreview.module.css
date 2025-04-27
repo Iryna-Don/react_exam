@@ -1,0 +1,107 @@
+.wrapper {
+    position: relative;
+    padding: 20px 40px;
+}
+
+.arrowButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgb(25, 103, 211);
+    color: #fff;
+    border: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 2;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.arrowButton:hover {
+    background: rgb(21, 85, 175);
+}
+
+.leftArrow {
+    left: 0;
+}
+
+.rightArrow {
+    right: 0;
+}
+
+.carousel {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
+    scroll-behavior: smooth;
+
+    scrollbar-width: auto;
+    scrollbar-color: rgb(25, 103, 211) #E3F2FD;
+}
+
+.carousel::-webkit-scrollbar {
+    height: 8px;
+}
+
+.carousel::-webkit-scrollbar-track {
+    background: #E3F2FD;
+    border-radius: 4px;
+}
+
+.carousel::-webkit-scrollbar-thumb {
+    background-color: rgb(25, 103, 211);
+    border-radius: 4px;
+}
+
+.carousel::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(21, 85, 175);
+}
+
+.videoCard {
+    display: inline-block;
+    width: 320px;
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+.previewContainer {
+    position: relative;
+    cursor: pointer;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.previewContainer:hover {
+    transform: scale(1.03);
+}
+
+.previewImage {
+    display: block;
+    width: 320px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.playButtonOverlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.3s ease;
+}
+
+.previewContainer:hover .playButtonOverlay {
+    background: rgba(0, 0, 0, 0.7);
+}

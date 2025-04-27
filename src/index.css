@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: #310117;
+    color: white;
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+.rowContainer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.columnContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.error, .loading {
+    color: red;
+    white-space: pre-line;
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+
+.loading {
+    color: gold;
+}
+
+.onClick{
+    cursor: pointer;
+    transition: 1s;
+}
+
+.onClick:hover {
+    box-shadow: 0 4px 12px rgb(135, 206, 235);
+    transform: scale(1.03);
+    transition: 1s;
+}
+
+h1{
+    font-size: 2.5rem;
+}
